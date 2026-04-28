@@ -54,5 +54,33 @@ button:hover {
 
 .btn-number{
     background:#333;
-    color: 
+    color: #fff;
+}
+
+.btn-operator{
+    background: #ff9500;
+    color: #fff;
+}
+
+.btn-equal {
+    background:#28a745;
+    color: #fff;
+    grid-column: span 2;
+}
+
+.btn-clear{
+    background: #dc3545;
+    color: #fff;
+    grid-column: span 2;
+}
+
+@media (max-width: 400px) {
+    .buttons { 
+        padding: 15px;
+        font-size: 1rem;
+    }
+
+    .display {
+        font-size: 1.5rem;
+    }
 }
