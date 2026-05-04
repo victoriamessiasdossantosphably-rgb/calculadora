@@ -7,7 +7,7 @@ buttons.forEach(btn => {
 
 function handleInput(value){
     if (value === 'C'){
-        display.innertext = '0';
+        display.innerText = '0';
 } else if (value === '=') {
     try{
       display.innerText =  eval(display.innerText
@@ -28,7 +28,7 @@ function handleInput(value){
 //suporte ao teclado
 document.addEventListener('keydown',(e) => {
     if(!insNan(e.key) || ['+', '-', '*', '/', '.'].includes(e.key)) {
-        hedleInput(e.key);
+        handleInput(e.key);
     } else if (e.key === 'Enter') {
     handleInput('=');
     } else if (e.key === 'Backspace') {
