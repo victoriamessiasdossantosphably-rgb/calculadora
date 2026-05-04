@@ -17,7 +17,7 @@ body {
     background:#1c1c1c;
     padding: 20px;
     box-shadow: 0 10px 25px rgba(0,0,0,0,5);
-    width: 90%
+    width: 90%;
 }
 
 .display {
@@ -34,8 +34,8 @@ body {
 
 .buttons {
     display: grid;
-    grid-template-columns: repeat (4,  1fr);
-    gap: 10px
+    grid-template-columns: repeat(4,  1fr);
+    gap: 10px;
 }
 
 .buttons {
